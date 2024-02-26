@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body{
+     font-family:"Roboto", sans-serif;
+     background-color: rgb(184, 184, 184);
+}
+
+.logo{
+    text-align: center;
+    background-color: white;
+}
+
+.titulopagina{
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 15px;
+    background-color: white;
+}
+
+.corpo{
+    background-color: rgb(184, 184, 184);
+}
+
+.post1, .post2, .post3, .post4{
+    border-radius: 0.1cm;
+    background-color: white;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 5px;
+    margin: 7px 25px 3px 15px
+}
+
+.titulopost1, .titulopost2, .titulopost3, .titulopost4{
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 15px 0px 20px 0px;
+    text-align: left;
+}
+
+.descricao1post, .descricao2post, .descricao3post, .descricao4post{
+    font-size: 15;
+    padding-bottom: 15px;
+}
+
+.autor1post, .autor2post, .autor3post, .autor4post{
+    padding-bottom: 25px;
+    font-style: italic;
+}
+
+.link1, .link2, .link3, .link4{
+    right: 3%;
+    text-align: right;
+    position: absolute;
+}
+
+.newsletter{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color:#3590ff ;
+    margin: 7px 25px 0px 15px;
+    border: 3px solid black;
+    border-radius: 0.2cm;
+}
+
+.titulonews{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family:"Roboto", sans-serif;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.textonews{
+    color: whitesmoke;
+    font-weight: lighter;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+#email::placeholder{
+    color: black;
+    
+}
+
+#email{
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+}
+
+.email{
+    color: white;
+    font-weight: bolder;
+}
+
+.botao{
+    height: 25px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 0.1cm;
+}
